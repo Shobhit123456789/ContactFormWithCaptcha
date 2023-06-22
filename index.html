@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form With Captcha</title>
+    <link rel="shortcut icon" href="\image\email.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/285a47688f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="login-form">
+        <form action="#" class="form">
+            <h1 class="form-title"><i class="fa-solid fa-phone fa-shake"></i>Contact Us</h1>
+
+            <div class="form-div">
+                <input type="text" class="form-input" placeholder=" ">
+                <label class="form-label">Username</label>
+            </div>
+            <div class="form-div">
+                <input type="text" class="form-input" placeholder=" ">
+                <label class="form-label">Email</label>
+            </div>
+
+            <div class="form-div">
+                <input type="password" class="form-input" placeholder=" ">
+                <label class="form-label">Phone</label>
+            </div>
+
+            <div class="form-div">
+                <textarea type="message" class="form-input" placeholder=" "></textarea>
+                <label class="form-label">Message</label>
+            </div>
+
+            <div id="captcha" class="form-div">
+                <div class="preview"></div>
+                <div class="captcha-form"> 
+                    <input type="text" id="captcha-form" class="form-input-captcha" placeholder=" ">
+                    <label class="form-label-captcha">Enter Captcha</label>
+                    <button class="captcha-refersh">
+                        <i class="fa-sharp fa-solid fa-arrows-rotate fa-bounce"></i>
+                    </button>
+                </div>
+            </div>
+
+            <input type="submit" class="form-button" value="Log In">
+        </form>
+    </div>
+    </div>
+    <section class="footer">
+        <div class="credit">Copyright @ 2023 By <span>Shobhit Dwivedi</span></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
